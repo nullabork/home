@@ -1,3 +1,3 @@
-[logo]: https://raw.githubusercontent.com/nullabork/artwork/master/talkbot/face/png/face_200.png "Talkbot"
-![alt text](https://raw.githubusercontent.com/nullabork/artwork/master/talkbot/face/png/face_200.png "Talkbot")
+[logo]: https://github.com/nullabork/home/blob/master/src/assets/images/screeno.png?raw=true "Talkbot"
+![alt text](https://github.com/nullabork/home/blob/master/src/assets/images/screeno.png?raw=true "Talkbot")
 

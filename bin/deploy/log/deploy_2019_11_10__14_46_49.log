@@ -1,0 +1,33 @@
+sending incremental file list
+public/app-a06780dbb4e6d71286b0.js
+public/app-a06780dbb4e6d71286b0.js.map
+public/chunk-map.json
+public/commons-f6783ede68f8c7ff9b6d.js
+public/commons-f6783ede68f8c7ff9b6d.js.map
+public/component---src-pages-index-js-f0b969908f6360711e0f.js
+public/component---src-pages-index-js-f0b969908f6360711e0f.js.map
+public/index.html
+public/manifest.webmanifest
+public/styles-a6eeeb4959d04991ab43.js
+public/styles-a6eeeb4959d04991ab43.js.map
+public/styles.4428e48f5d403ee41c7c.css
+public/webpack-runtime-e171c7421bbd2490c8d5.js
+public/webpack-runtime-e171c7421bbd2490c8d5.js.map
+public/webpack.stats.json
+public/icons/icon-144x144.png
+public/icons/icon-192x192.png
+public/icons/icon-256x256.png
+public/icons/icon-384x384.png
+public/icons/icon-48x48.png
+public/icons/icon-512x512.png
+public/icons/icon-72x72.png
+public/icons/icon-96x96.png
+public/page-data/app-data.json
+public/page-data/index/page-data.json
+
+sent 354.55K bytes  received 12.19K bytes  56.42K bytes/sec
+total size is 4.54M  speedup is 12.38
+
+By: aaron
+10 Nov 2019 14:46:55
+Git Branch Deployed: master

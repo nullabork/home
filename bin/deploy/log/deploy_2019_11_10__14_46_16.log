@@ -1,0 +1,21 @@
+sending incremental file list
+public/index.html
+public/manifest.webmanifest
+public/css/main.css
+public/icons/icon-144x144.png
+public/icons/icon-192x192.png
+public/icons/icon-256x256.png
+public/icons/icon-384x384.png
+public/icons/icon-48x48.png
+public/icons/icon-512x512.png
+public/icons/icon-72x72.png
+public/icons/icon-96x96.png
+public/page-data/dev-404-page/page-data.json
+public/page-data/index/page-data.json
+
+sent 10.25K bytes  received 3.40K bytes  2.48K bytes/sec
+total size is 4.39M  speedup is 321.85
+
+By: aaron
+10 Nov 2019 14:46:21
+Git Branch Deployed: master

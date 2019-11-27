@@ -1,0 +1,37 @@
+sending incremental file list
+dist/index.html
+dist/assets/css/app.css
+dist/assets/css/app.css.map
+dist/assets/favicons/android-chrome-192x192.png
+dist/assets/favicons/android-chrome-384x384.png
+dist/assets/favicons/apple-touch-icon.png
+dist/assets/favicons/browserconfig.xml
+dist/assets/favicons/favicon-16x16.png
+dist/assets/favicons/favicon-32x32.png
+dist/assets/favicons/favicon.ico
+dist/assets/favicons/mstile-150x150.png
+dist/assets/favicons/safari-pinned-tab.svg
+dist/assets/favicons/site.webmanifest
+dist/assets/images/b2.png
+dist/assets/images/b3.png
+dist/assets/images/b4.png
+dist/assets/images/b5.png
+dist/assets/images/b6.png
+dist/assets/images/back.png
+dist/assets/images/face@1x.png
+dist/assets/images/face@2x.png
+dist/assets/images/gitbooks.svg
+dist/assets/images/github.png
+dist/assets/images/patreon.png
+dist/assets/images/patreon_logo.svg
+dist/assets/images/sample.jpg
+dist/assets/images/screeno.png
+dist/assets/js/all.js
+dist/assets/js/all.js.map
+
+sent 12.41K bytes  received 11.35K bytes  5.28K bytes/sec
+total size is 2.04M  speedup is 85.75
+
+By: aaron
+Thu, Nov 28, 2019 12:35:27 AM
+Git Branch Deployed: master

@@ -107,6 +107,13 @@ gulp.task('images', () => {
     .pipe(browserSync.stream());
 });
 
+gulp.task('favicons', () => {
+  return gulp.src([ src_assets_folder + 'favicons/**/*' ], { since: gulp.lastRun('favicons') })
+    .pipe(plumber())
+    .pipe(gulp.dest(dist_assets_folder + 'favicons'))
+    .pipe(browserSync.stream());
+});
+
 gulp.task('vendor', () => {
   if (node_dependencies.length === 0) {
     return new Promise((resolve) => {
@@ -123,7 +130,7 @@ gulp.task('vendor', () => {
     .pipe(browserSync.stream());
 });
 
-gulp.task('build', gulp.series('clear', 'html', 'sass', 'less', 'stylus', 'js', 'images', 'vendor'));
+gulp.task('build', gulp.series('clear', 'html', 'sass', 'less', 'stylus', 'js', 'images', 'favicons', 'vendor'));
 
 gulp.task('dev', gulp.series('html', 'sass', 'less', 'stylus', 'js'));
 
@@ -139,8 +146,12 @@ gulp.task('serve', () => {
 
 gulp.task('watch', () => {
   const watchImages = [
-    src_assets_folder + 'images/**/*.+(png|jpg|jpeg|gif|svg|ico)'
+    src_assets_folder + 'images/**/*.+(png|jpg|jpeg|gif|svg|ico)',
   ];
+
+  const watchFavIcons = [
+    src_assets_folder + 'favicons/**/*'
+  ]
 
   const watchVendor = [];
 
@@ -159,6 +170,7 @@ gulp.task('watch', () => {
 
   gulp.watch(watch, gulp.series('dev')).on('change', browserSync.reload);
   gulp.watch(watchImages, gulp.series('images')).on('change', browserSync.reload);
+  gulp.watch(watchFavIcons, gulp.series('favicons')).on('change', browserSync.reload);
   gulp.watch(watchVendor, gulp.series('vendor')).on('change', browserSync.reload);
 });
 
